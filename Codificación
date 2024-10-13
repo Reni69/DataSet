@@ -1,0 +1,11 @@
+import numpy as np
+
+def cargar_datos(C:\Users\renat\Dropbox\PC\Downloads\archive):
+    # Carga los datos del archivo CSV utilizando NumPy
+    datos = np.genfromtxt(C:\Users\renat\Dropbox\PC\Downloads\archive, delimiter=',', skip_header=1)
+    return datos
+
+if _name_ == "_main_":
+    ruta_archivo = '..C:\Users\renat\Dropbox\PC\Downloads\archive.xlsx'
+    datos = cargar_datos(C:\Users\renat\Dropbox\PC\Downloads\archive)
+    print(datos)
